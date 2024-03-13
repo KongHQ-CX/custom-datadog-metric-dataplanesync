@@ -1,0 +1,7 @@
+init_config:
+instances:
+  - min_collection_interval: 60
+    konnect_token: spat_abc  # Konnect PAT here - needs "Viewer" role
+    konnect_control_plane_name: test-control-plane  # Control Plane name here
+    konnect_region: us  # Region here
+    kong_status_url: http://127.0.0.1:8100/status  # This can be used to target remote instances, if required
